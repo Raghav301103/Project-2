@@ -58,11 +58,9 @@ section p {
   margin-bottom: 1em;
 }
 
-/* Style the drug info list */
-#drug-info {
-  list-style: none;
-}
-
 #drug-info li {
   margin-bottom: 0.5em;
+}
+#Eklavya {
+  display: none;
 }
