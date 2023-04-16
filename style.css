@@ -1,0 +1,68 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a custom font and text color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the header and nav elements */
+header, nav {
+  background-color: #ba3b44;
+  color: #fff;
+  padding: 1em;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+section p {
+  margin-bottom: 1em;
+}
+
+/* Style the drug info list */
+#drug-info {
+  list-style: none;
+}
+
+#drug-info li {
+  margin-bottom: 0.5em;
+}
